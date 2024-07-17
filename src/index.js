@@ -8,8 +8,10 @@ import { stepifyScript } from "./utils";
 const Main = styled.div`
   font-family: sans-serif;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
 `;
 
 const App = () => (
